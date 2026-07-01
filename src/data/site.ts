@@ -3,7 +3,7 @@ export const siteConfig = {
   slogan: "Precision in Every Detail.",
   description:
     "Premium event production and technical solutions in Kampala, Uganda. Professional sound, lighting, staging, photography, videography, and equipment hire.",
-  url: "https://novoevents.ug",
+  url: "https://s3ct1999-404.github.io/NOVO-EVENTS",
   location: "Kampala, Uganda",
   email: "hello@novoevents.ug",
   phone: "+256 700 000 000",

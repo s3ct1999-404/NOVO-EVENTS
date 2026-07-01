@@ -6,7 +6,7 @@
     "dev": "next dev",
     "prebuild": "node scripts/verify-image-config.mjs",
     "build": "next build",
-    "export": "next export",
+    "export": "next build",
     "start": "next start",
     "lint": "next lint",
     "verify:images": "node scripts/verify-image-config.mjs",

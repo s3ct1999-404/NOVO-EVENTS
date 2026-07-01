@@ -1,6 +1,13 @@
 import type { NextConfig } from "next";
 
+const repoName = "NOVO-EVENTS";
+
 const nextConfig: NextConfig = {
+  output: "export",
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true,
+  basePath: process.env.NODE_ENV === "production" ? `/${repoName}` : "",
+  assetPrefix: process.env.NODE_ENV === "production" ? `/${repoName}/` : "",
   images: {
     remotePatterns: [
       // Unsplash — primary image CDN
