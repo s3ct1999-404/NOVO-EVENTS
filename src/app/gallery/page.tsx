@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
+import Image from "@/components/ui/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { PageHero } from "@/components/ui/page-hero";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/ui/fade-in";

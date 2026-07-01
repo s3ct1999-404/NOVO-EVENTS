@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import Image from "@/components/ui/image";
 import { PageHero } from "@/components/ui/page-hero";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/ui/fade-in";
 import { CTABanner } from "@/components/ui/cta-banner";

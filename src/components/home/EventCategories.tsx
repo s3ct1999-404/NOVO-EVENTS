@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/ui/image";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/ui/fade-in";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { eventCategories } from "@/data/services";

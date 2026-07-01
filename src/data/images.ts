@@ -9,7 +9,7 @@
  * Replace any file in public/images/ with your own Novo Events photography.
  */
 
-const img = (path: string) => `/images/${path}`;
+const img = (path: string) => `/NOVO-EVENTS/images/${path}`;
 
 export const images = {
   hero: {

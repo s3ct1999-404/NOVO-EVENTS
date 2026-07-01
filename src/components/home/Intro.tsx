@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/ui/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { FadeIn, ImageReveal } from "@/components/ui/fade-in";

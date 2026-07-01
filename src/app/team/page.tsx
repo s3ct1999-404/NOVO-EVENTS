@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Image from "@/components/ui/image";
 import { PageHero } from "@/components/ui/page-hero";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/ui/fade-in";
 import { SectionHeading } from "@/components/ui/section-heading";
