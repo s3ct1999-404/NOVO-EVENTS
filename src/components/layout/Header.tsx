@@ -96,9 +96,9 @@ export function Header() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-40 bg-white/98 backdrop-blur-xl lg:hidden"
+            className="fixed inset-0 z-40 bg-novo-black/95 text-white shadow-2xl backdrop-blur-xl lg:hidden"
           >
-            <nav className="flex h-full flex-col items-center justify-center gap-8">
+            <nav className="flex h-full flex-col items-center justify-center gap-8 px-6 text-center">
               {navLinks.map((link, i) => (
                 <motion.div
                   key={link.href}
@@ -112,7 +112,7 @@ export function Header() {
                       "font-display text-3xl transition-colors hover:text-novo-gold",
                       pathname === link.href
                         ? "text-novo-gold"
-                        : "text-novo-black"
+                        : "text-white"
                     )}
                   >
                     {link.label}
